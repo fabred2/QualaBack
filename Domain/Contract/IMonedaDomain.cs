@@ -9,10 +9,6 @@ namespace Domain.Contract
 {
     public interface IMonedaDomain
     {
-        Task<IEnumerable<Monedas>> GetAll();
-        Task<Monedas> Update(Monedas Object);
-        Task<Monedas> Insert(Monedas Object);
-        Task<Monedas> Delete(Monedas Object);
-        Task<Monedas> GetById(int Id);
+        Task<IEnumerable<Monedas>> GetAll();       
     }
 }

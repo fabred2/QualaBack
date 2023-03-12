@@ -17,30 +17,11 @@ namespace Domain
         {
             oIRepository = _oIRepository;
         }
-        public async Task<Monedas> Delete(Monedas Object)
-        {
-            return await oIRepository.Delete(Object);
-        }
-
         
         public async Task<IEnumerable<Monedas>> GetAll()
         {
             return await oIRepository.GetAll();
         }
-
-        public async Task<Monedas> GetById(int Id)
-        {
-            return await oIRepository.GetById(Id);
-        }
-
-        public async Task<Monedas> Insert(Monedas Object)
-        {
-            return await oIRepository.Insert(Object);
-        }
-
-        public async Task<Monedas> Update(Monedas Object)
-        {
-            return await oIRepository.Update(Object);
-        }
+       
     }
 }
