@@ -82,7 +82,6 @@ namespace Quala.Controllers
 
 
         [HttpDelete("{id}")]
-        // [HttpDelete("Delete")]
         public async Task<Response> Delete(int id)
         {
             Sucursales oSucu = new Sucursales();
